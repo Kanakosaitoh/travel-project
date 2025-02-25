@@ -79,7 +79,7 @@ main {
 }
 .embed {
   width: 100%;
-  aspect-ratio: 1/1;
+  aspect-ratio: 1 / 1;
 }
 .card-header {
   grid-gap: 0;
@@ -117,7 +117,7 @@ main p {
   max-width: 100%;
   display: block;
 }
-.photo {
+.photos {
   max-width: 100%;
 }
 .secondary {
@@ -178,8 +178,31 @@ footer a {
   section {
     padding: 30px;
   }
-  .beach-photo {
+  main {
+    text-align: center;
+  }
+  .embed {
+    aspect-ratio: 16 / 9;
+  }
+  .card {
+    padding: 20px;
+  }
+  .card-header .photos {
+    display: none;
+  }
+  card-body h4 {
+    font-size: 20px;
+  }
+  .img-responsive .photos {
     max-width: 100%;
+    padding-bottom: 10px;
+  }
+  .grid {
+    max-width: 100%;
+    padding: 10px;
+  }
+  section {
+    margin-top: 40px;
   }
   footer {
     padding: 60px;

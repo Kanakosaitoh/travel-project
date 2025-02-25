@@ -217,4 +217,7 @@ footer a {
   footer {
     padding: 60px;
   }
+  .about-me {
+    font-size: 8px;
+  }
 }

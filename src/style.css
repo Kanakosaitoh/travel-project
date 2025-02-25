@@ -77,10 +77,20 @@ main {
 .grid-3-columns-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+.card-header {
+  grid-gap: 0;
+}
 section {
   max-width: 1200px;
   margin: 0 auto;
   padding: 100px 0;
+}
+section h4 {
+  padding-top: 10px;
 }
 main h2 {
   font-weight: 700;
@@ -117,6 +127,14 @@ main p {
 .text-center {
   text-align: center;
   padding-bottom: 20px;
+}
+.card-footer a {
+  color: white;
+  background-color: #272044;
+  padding: 10px 30px;
+  text-align: center;
+  display: block;
+  text-decoration: none;
 }
 footer h3 {
   font-weight: 700;

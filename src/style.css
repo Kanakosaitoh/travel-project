@@ -136,6 +136,9 @@ main p {
   display: block;
   text-decoration: none;
 }
+.gallery {
+  margin-top: 20px;
+}
 footer h3 {
   font-weight: 700;
   font-size: 20px;
@@ -182,6 +185,7 @@ footer a {
     text-align: center;
   }
   .embed {
+    width: 100%;
     aspect-ratio: 16 / 9;
   }
   .card {
@@ -203,6 +207,12 @@ footer a {
   }
   section {
     margin-top: 40px;
+  }
+  .gallery .img-responsive {
+    max-width: 180%;
+    aspect-ratio: 1 / 1;
+    padding: 10px;
+    display: block;
   }
   footer {
     padding: 60px;
